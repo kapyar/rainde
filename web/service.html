@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <style type="text/css">
+        @font-face {
+            font-family: 'MyFont';
+            src: url('font/BlBmFnhm.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "myFont", sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Service | raindie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/service.css">
+
+    <link rel="shortcut icon" href="img/demopage/favicon.png">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/bottom_slide.css">
+
+</head>
+<body>
+<div class="my_container">
+    <div class="nav">
+        <div class="home_icon">
+            <a href="index.html"> <img src="images/home_btn.png"></a>
+        </div>
+    </div>
+
+    <div class="bg_service">
+        <div class="portolio">
+            <a class="example-image-link" href="img/demopage/1.jpg" data-lightbox="example-set"
+               data-title="Click the right half of the image to move forward.">
+
+                <div id="in_thumb">ПОРТФОЛИО</div>
+            </a>
+            <a class="example-image-link" href="img/demopage/2.jpg" data-lightbox="example-set"
+               data-title="Or press the right arrow on your keyboard."></a>
+            <a class="example-image-link" href="img/demopage/3.jpg" data-lightbox="example-set"
+               data-title="The next image in the set is preloaded as you're viewing."></a>
+            <a class="example-image-link" href="img/demopage/4.jpg" data-lightbox="example-set"
+               data-title="Click anywhere outside the image or the X to the right to close."></a>
+            <a class="example-image-link" href="img/demopage/5.jpg" data-lightbox="example-set"
+               data-title="Click anywhere outside the image or the X to the right to close."></a>
+            <a class="example-image-link" href="img/demopage/6.jpg" data-lightbox="example-set"
+               data-title="Click anywhere outside the image or the X to the right to close."></a>
+        </div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/bottom_slider.js"></script>
+
+
+<div class="footer">
+    <div class="footer_list">
+
+        <div class="footer_list_left">
+            <a id="f_style" href="#">ФИРМЕННЫЙ СТИЛЬ</a><br><br><br>
+            <a id="el_fstyle" href="#">ЭЛЕМЕНТЫ ФИРМЕННОГО СТИЛЯ</a><br><br><br>
+            <a id="web_design" href="#">WEB-ДИЗАЙН</a><br><br><br>
+            <a id="dev_design" href="#">РАЗРАБОТКА ДИЗАЙНА</a><br><br><br>
+            <a id="visualization" href="#">ВИЗУАЛИЗАЦИИ</a><br><br><br>
+        </div>
+        <div class="carousel-inner">
+            <div id="img_f_style" class="wrapper image-shown">
+                <img class="image" src="images/coffee.jpg" alt="">
+
+                <p class="over_img" style="margin-top: 183px;">Мы разработаем для Вас уникальный фирменный стиль,
+                    который будет выделяться
+                    среди конкуретной среды и производить наилучшее впечатление.</p>
+            </div>
+            <div id="img_el_fstyle" class="wrapper image-hidden">
+                <img class="image" src="images/mockup.jpg" alt="">
+
+                <p class="over_img" style="margin-top: 168px;">Элементы фирменного стиля - это второе лицо Вашей
+                    компании. Мы разработаем новый
+                    дизайн необходимых элементов учитывая даже самые незначительные моменты фирменного стиля или
+                    брендбука.</p>
+            </div>
+            <div id="img_web_design" class="wrpper image-hidden">
+                <img class="image" src="images/web.jpg" alt="">
+
+                <p class="over_img" style="margin-top: 134px;">В настоящее время сайт - это один из ключевых факторов в
+                    продвижении Вашего
+                    бизнеса.
+                    Мы тщательно изучаем целевую аудиторию наших клиентов, и делаем дизайн максимально понятным что
+                    бы каждый потенциальный покупатель захотел приобрести именно ваш продукт.</p>
+            </div>
+            <div id="img_dev_design" class="wrapper image-hidden">
+                <img class="image" src="images/designer.jpg" alt="">
+
+                <p class="over_img" style="margin-top: 196px;">Мы разработаем неповторимый дизайн для любого
+                    существующего носителя.</p>
+            </div>
+            <div id="img_visualization" class="wrapper image-hidden">
+                <img class="image" src="images/visualization.jpg" alt="">
+
+                <p class="over_img" style="margin-top: 168px;">Только визуализация позволяет создать эффект присутствия.
+                    Вы можете оценить
+                    внешний вид, параметры будущего сооружения или интерьера помещения до начала работ по воплощению
+                    задумки в реальность.</p>
+            </div>
+        </div>
+    </div>
+    <a id="make_order" href="kontakt.html">Сделать заказ</a>
+</div>
+
+
+<script type="text/javascript">
+    $(document).resize(function () {
+
+        $(".bg_service").css("height", $(window).height());
+        $(".footer").css("top", $(window).height());
+    });
+    //    firs enter
+    $(function () {
+        $(".footer").css("top", $(window).height());
+    });
+</script>
+
+</body>
+</html>

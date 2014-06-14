@@ -1,0 +1,105 @@
+
+.info {
+
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    z-index: 1032;
+    height: 100px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    text-align: left;
+
+}
+
+.form {
+    width: 300px;
+    height: 50%;
+    /*background-color: chartreuse;*/
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.name {
+    z-index: 24;
+    width: 300px;
+    min-height: 20px;
+    border-style: none;
+    border-color: transparent;
+    background-color: #BB272D;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 400;
+    position: relative;
+}
+
+.name p{
+    padding: 0;
+    margin:0;
+    margin-left: 5px;
+}
+
+.name_in {
+    z-index: 28;
+    width: 300px;
+    min-height: 14px;
+    border-color: #C4C4C4;
+    background-color: #F2F2F2;
+    padding: 0px;
+    line-height: 14px;
+    font-style: italic;
+    position: relative;
+    margin: 0px;
+
+}
+
+.input_style {
+    border: 0;
+    outline: 0;
+    width: 287px;
+    min-height: 14px;
+    color: #C4C4C4;
+    font-style: italic;
+    padding: 6px;
+    margin: 0;
+
+}
+
+#btn {
+    text-indent: -99999px;
+    z-index: 1053;
+    min-height: 31px;
+    width: 131px;
+    background: url("../images/u1613-17.png") no-repeat 0px 0px;
+    margin-bottom: -1px;
+    position: relative;
+    float: right;
+}
+
+#btn:hover {
+    background: url("../images/u1613-17-r.png") no-repeat 0px 0px;
+}
+
+#btn:active {
+    background: url("../images/portfolio.png") no-repeat 0px 0px;
+}
+
+.name_in input:hover{
+
+    background-color: #bbbbbb;
+    font-style: normal;
+    min-height: 14px;
+    color: #222222;
+    /*color: #666666;*/
+
+}
+
+

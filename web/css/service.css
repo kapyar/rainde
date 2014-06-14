@@ -1,0 +1,90 @@
+.bg_service {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF url("../images/bg_service.png") no-repeat center bottom;
+    z-index: 1029;
+}
+
+.portolio {
+    z-index: 1030;
+    position: fixed;
+    top: 80%;
+    left: 40%;
+}
+
+.footer_list {
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+
+}
+
+.footer_list_left {
+
+    float: left;
+    margin-top: 50px;
+    position: absolute;
+    top: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+    padding: 0;
+
+}
+
+.footer_list_left a:hover {
+    text-decoration: none;
+}
+
+.footer_list_left a {
+    line-height: 20px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.par {
+    z-index: 1035;
+    color: #000000;
+    margin: 3px;
+}
+
+#in_thumb {
+    background-color: #000000;
+    z-index: 9;
+    width: 289px;
+    min-height: 45px;
+    /*background-color: transparent;*/
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+
+    margin: 0;
+    padding-top: 5px;
+    border-radius: 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#in_thumb:hover {
+    border-color: #999999;
+    background-color: #BB272D;
+    margin: 0px;
+}
+
+#make_order {
+    line-height: 20px;
+    color: #000000;
+    font-size: 24px;
+
+    font-weight: 400;
+    float: right;
+    text-decoration: none;
+    position: relative;
+    top: 321px;
+    margin-right: 20%;
+}
+
