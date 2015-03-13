@@ -8,4 +8,4 @@ Technology
 2. HTML+CSS
 3. JS
 
-P.S I buld it using this [IDE](http://www.jetbrains.com/idea/)
+
